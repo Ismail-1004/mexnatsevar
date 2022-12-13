@@ -90,6 +90,21 @@
     align-items: center;
 }
 
+.header__content-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__content-logo span {
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+
+    font-size: 20px;
+
+    max-width: 250px;
+}
+
 .header__content-img {
     width: 65px;
 }
@@ -133,7 +148,7 @@
 
 .header__main-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -141,6 +156,18 @@
     color: white;
     font-size: 40px;
     line-height: 60px;
+    text-align: right;
+}
+
+.header__main-info img {
+    width: 100px;
+}
+
+.header__main-text {
+    color: white;
+    font-size: 40px;
+    line-height: 60px;
+    margin-left: 20px;
 }
 
 .header__main-title span {
@@ -230,5 +257,13 @@
     border-radius: 15px;
 }
 
+
 /* header end */
 /* ************** */
+
+
+
+/* footer start */
+
+/* footer end */
+/* *************** */

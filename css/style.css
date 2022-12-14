@@ -39,6 +39,14 @@
     cursor: pointer;
 }
 
+.h3c-link {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    margin-top: 20px;
+}
+
 .prev {
     left: 0;
     border-radius: 15px 0 0 15px;
@@ -57,6 +65,27 @@
     position: absolute;
     top: 0;
     left: 100px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.header__content-contacts-mobile {
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.contact-info {
+    display: none;
+}
+
+.link-h3 {
+    display: none;
+}
+
+.header__content-contacts-mobile {
+    display: none;
 }
 
 /* root end */
@@ -263,7 +292,70 @@
 
 
 
-/* footer start */
+/* media start */
 
-/* footer end */
-/* *************** */
+@media (max-width:1200px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .header__main-content {
+        flex-direction: column;
+    }
+
+    .slider__conf {
+        margin-top: 30px;
+    }
+
+    .header__main-slider {
+        max-width: 350px;
+    }
+
+    .prev {
+        left: -15px;
+        top: -2px;
+    }
+
+    .next {
+        right: -15px;
+        top: -2px;
+    }
+
+    .header__content-contacts {
+        display: none;
+    }
+
+    .contact-info {
+        display: block;
+    }
+    
+    .link-h3 {
+        display: block;
+    }
+    
+    .header__content-contacts-mobile {
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+/* meadia end */
+/* ************** */
